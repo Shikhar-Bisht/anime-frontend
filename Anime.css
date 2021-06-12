@@ -1,0 +1,111 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(kakashi1.jpg);
+    height: 800px;
+    font-family: 'Comic Neue', cursive; 
+}
+.left
+{
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    text-align: center;
+}
+.mid
+{
+    display: block;
+    width: 40%;
+    margin: 15px auto;
+    text-align: center;  
+}
+.right
+{
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    display: inline-block;
+}
+.nav li
+{
+    display: inline-block;
+    padding: 0px 30px;
+
+}
+.nav li a
+{
+    color: white;
+    text-decoration: none;
+}
+.nav li a:hover
+{
+    text-decoration: underline;
+    color: seagreen;
+}
+.left img
+{
+    width: 40px; 
+}
+.left div
+{
+    line-height: 20px;
+}
+.btn
+{
+    font-family: 'Comic Neue', cursive;
+    background-color: black;
+    color: white;
+    margin: 0px 10px;
+    padding: 4px 4px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: cyan;
+}
+.container
+{
+    margin: 83px auto;
+    padding: 13px 12px;
+    width: 74%;
+
+}
+.form
+{
+    margin: -87px auto;
+    padding: 31px 23px;
+    width: 33%;
+}
+.formgroup input
+{
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 3px auto;
+    font-size: 15px;
+}
+.form h1
+{
+    text-align: center;
+}
+.form button
+{
+    display: block;
+    width: 20%;
+    margin: 21px auto;
+}
+.formgroup
+{
+    margin: 12px auto;
+}
